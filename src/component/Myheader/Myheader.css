@@ -1,0 +1,28 @@
+.logo-docplanner{
+    height: 33px;
+    width: 268px;
+    
+}
+.navmenu{
+width:100vw;
+    justify-content: space-evenly;
+    height: 70px;
+    background-color: #ffff;
+   border-bottom: 1px solid #f8f6f68a;
+}
+#basic-navbar-nav{
+    justify-content: flex-end
+}
+#about-us { 
+    color:#00b39b }
+    
+.nav-link:hover {
+        color:#00b39b!important
+    }
+    .nav-link.active{ 
+    color:#00b39b!important
+}
+
+.fixed-top {
+    margin: 0% 14%;
+}

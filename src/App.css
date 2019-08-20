@@ -1,33 +1,190 @@
-.App {
-  text-align: center;
+
+
+/* section 1: Description */
+ .description{
+  width: 1015px;
+  margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 25px;
+}
+.title-logo{ 
+   height: 45px;
+width: 45px}
+h1{font-size: 30px;
+   color: #00b39b;
+   font-weight: 300;
+}
+.paragraph{
+   display: flex;
+   justify-content: space-between;
+
+}
+.paragraph p{
+  color:gray;
+  line-height: 1.75;
+  font-weight: 400;
+  margin: .8em 0;
+  width: 48%
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+/* section2: Cards */
+.cards{
+  display: flex;
+  justify-content: space-between;
+  width: 1015px;
+  margin: auto;
+  margin-top:80px;
+}
+/*section 3: brands */
+    
+.brands{
+  display: flex;
+  justify-content: space-between;
+  margin:40px 249px 50px;
+  align-items: center   ;
+ width: 1045px;
+ 
+}
+.brands h1{
+  width:320px;
+}
+.brands-logos{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  
+  height: 120px;
+  
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.brands-logos li{ 
+  
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  /* width: 650px; */
+  margin-right: 1%;
+}
+.brands-logos svg{
+  fill: #747474;
+  opacity:0.5;
+  height: 20px;
+  width: 145px;
+}
+.brands-logos svg:hover{
+  fill:#00b39b;
+}
+
+/*section 4: Stats */
+
+#stats {
+    
+    
+  background: #e5faf8;
+  background-position: 260px 280px;
+  background-size: 450px 400px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.docplanner.com/img/logo.png); 
+  height: 600px; 
+  margin-right:0px;
+  margin-left: 0px;
+  width: 100%;  
+}
+
+.stats-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 1015px;
+  height: 114.5;
+  margin: auto;
+}
+.stats-inner h1{font-size: 34px}
+.stats-inner p{height:48px}
+
+.stats-cards{
+  display: flex;
+  justify-content: space-between;
+  width:475px;
+}
+.stats-card{
+  
+  height:250px;
+  width: 228px;
+  background: white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.stats-card p{font-size:14px;
+  text-align:center;
+}
+h3{
+  text-align:center;
+  font-size: 24px;
+  color: #00b39b;
+  font-weight: 300;  
+}
+
+.stats-left-cards {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  height:520px;
+}
+.stats-right-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:520px;
+  margin-top: 20px;
+}
+
+
+/* section 5: Cities */
+.cities{
+    width: 1015px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+/* footer */
+.footerdiv{
+  margin-top:50px;
+  height:80px;
+  width:100vw;
+  border-top: 1px rgb(116, 116, 116, 0.2) solid;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  justify-content:space-between;
+  flex-direction: column;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.finish{
+ padding-top: 20px;
+  width: 1015px;
+  margin: auto;
+  font-weight: 400;
+  font-size: 14px;
+}
+.finish p{
+  font-size: .90em;
+  color: #ababab;
+  text-align: center;
+  font-weight: 400px;
+}
+.finish a{ text-decoration: none;
+color:#3d83df;
+}
+.finish a:hover{
+text-decoration: underline;   
 }
